@@ -1,0 +1,22 @@
+def print_digit_sum(num): #123
+   total = 0
+   for digit in str(num):
+      digit = int(digit)
+      total += digit
+   return total
+
+# print(list(123)) #не способен разложить одно число на составляющие этор аботате тока с будками или строкамми
+print(print_digit_sum(992))
+
+# Напишите функцию draw_box(n), которая выводит звездный прямоугольник с размерами n x n в соответствии с образцом:
+# 5
+# *****
+# *****
+# *****
+# *****
+# *****
+
+# def draw_box(n):
+#    print((("*" * n + '\n') * n)[:-1])
+
+# draw_box(5)
